@@ -1,0 +1,185 @@
+/* Copyright 1998-2015 Northwoods Software Corporation. All Rights Reserved. */
+
+body {
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+p {
+  max-width: 700px;
+}
+
+p.box {
+  border: 1px solid #BBB;
+  padding: 4px 4px 6px 4px;
+}
+
+p.warning {
+  background-color: #FCD5CD
+}
+
+.diagramContainer {
+  border : solid 1px blue;
+}
+pre {
+  font-size : 9pt;
+}
+
+.footer {
+  text-align: right;
+  font-size: 10px;
+}
+
+/* new: */
+
+#sample {
+  margin-left: 140px;
+}
+
+#menu {
+  white-space: nowrap;
+  overflow: hidden;
+  border: 1px solid #DDD;
+  padding: 4px;
+  margin-right: 5px;
+  background-color: #F9F9F9;
+  width: 120px;
+  float: left;
+}
+
+#sections {
+  list-style-type: none;
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.3em;
+}
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+a li { color: #0645AD; }
+a li:hover, a li:focus { background: #CEDFF2; }
+a li.selected { background: #1E90FF; color: white }
+
+
+.index {
+  margin-top: 0px;
+}
+
+#pop {
+  width:50%;
+  height:90%;
+  opacity:.95;
+  top:5%;
+  left:25%;
+  display:none;
+  position:fixed;
+  background-color:#FFFFFF;
+  overflow:auto
+}
+img#close {
+  position:absolute;
+  right:5%;
+  top:10px;
+  cursor:pointer
+}
+
+h3 {
+  background-color:#FEFFED;
+  padding:40px 35px;
+  margin : 20px 9%;
+  text-align:center;
+  border-radius:10px 10px 0 0
+}
+
+hr {
+  margin:10px -50px;
+  border:0;
+  border-top:1px solid #ccc
+}
+
+hr#submit {
+  margin:10px -50px;
+  border:0;
+  border-top:1px solid #ccc
+}
+
+input[type=text] {
+  width:82%;
+  padding:10px;
+  margin : 2px 9%;
+  border:1px solid #ccc;
+  font-size:14px;
+  font-family:raleway
+}
+
+textarea {
+
+  width:82%;
+  height:95px;
+  padding:10px;
+  resize:none;
+  margin: 2px 9%;
+  border:1px solid #ccc;
+  font-size:16px;
+  font-family:raleway;
+  margin-bottom:30px
+}
+
+form#pop {
+  max-width:300px;
+  min-width:250px;
+  padding:10px 50px;
+  border:2px solid gray;
+  border-radius:10px;
+  font-family:raleway;
+  background-color:#000
+}
+
+
+#submit {
+  text-decoration:none;
+  width:80%;
+  margin : 2px 10%;
+  text-align:center;
+  display:block;
+  background-color:#FFBC00;
+  color:#fff;
+  border:1px solid #FFCB00;
+  padding:10px 0;
+  font-size:16px;
+  cursor:pointer;
+  border-radius:5px
+}
+
+button#submit {
+  width:10%;
+  height:45px;
+  border-radius:3px;
+  background-color:#cd853f;
+  color:#fff;
+  font-family:'Raleway',sans-serif;
+  font-size:18px;
+  cursor:pointer
+}
+
+hr.clear {
+  background: none;
+  border: 0;
+  clear: both;
+  display: block;
+  float: none;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.hideANDseek
+{
+  display: none;
+}
