@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "A test for simple wizard",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wk0206/test.git"
+  },
+  "keywords": [
+    "obeu",
+    "js",
+    "node.js"
+  ],
+  "author": "Kang Wang <wk0206@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wk0206/test/issues"
+  },
+  "homepage": "https://github.com/wk0206/test#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
