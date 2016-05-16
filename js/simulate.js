@@ -4,7 +4,7 @@
 //CODELIST_EU=["Austria","Belgium","Bulgaria","Croatia","Cyprus","CzechRepublic","Denmark","Estonia","Finland","France","Germany","Greece","Hungary","Ireland","Italy","Latvia","Lithuania","Luxembourg","Malta","Netherlands","Poland","Portugal","Romania","Slovakia","Slovenia","Spain","Sweden","UnitedKingdom"];
 //CODELIST_EU_ABBV=[ "BE","EL","LT","PT","BG","ES","LU","RO","CZ","FR","HU","SI","DK","HR","MT","SK","DE","IT","NL","FI","EE","CY","AT","SE","IE","LV","PL","UK"];
 
-var parser = require("xml2json");
+//var parser = require("xml2json");
 
 CODELIST_MAPPING=[["Objective","Function"],["Fund","funds"],]
 
@@ -15,9 +15,11 @@ function createOtherTable(lstDic,index){
 
 
     var body = document.getElementsByTagName('body')[0];
-    var div = document.createElement("div");
-    div.id = "temp_table";
-    body.appendChild(div);
+    var div = document.getElementById("temp_table");
+
+    //console.log(div);
+    //div.id = "temp_table";
+    //body.appendChild(div);
     var table = document.createElement("table");
     table.id="tocx"+(index);
     table.border=1;
@@ -27,6 +29,7 @@ function createOtherTable(lstDic,index){
 
 
     var tablename="";
+    //console.log(lstDic)
     for(var i = 0; i < lstDic.node.length; i++){
         //tablename+=;
         var title = lstDic.node[i].title;
@@ -35,7 +38,7 @@ function createOtherTable(lstDic,index){
         //p.text = title;
         p.innerText=title;
         //console.log(p);
-        body.appendChild(p);
+        div.appendChild(p);
         //body.appendChild(linebreak);
     }
 
@@ -57,11 +60,24 @@ function createOtherTable(lstDic,index){
     row.appendChild(cell);
 
     cell = document.createElement("td");
+    cell.appendChild(document.createTextNode("@captol:2014"))
+    row.appendChild(cell);
+
+    cell = document.createElement("td");
     cell.appendChild(document.createTextNode("@budget:2013"))
     row.appendChild(cell);
 
     cell = document.createElement("td");
+    cell.appendChild(document.createTextNode("@captol:2013"))
+    row.appendChild(cell);
+
+
+    cell = document.createElement("td");
     cell.appendChild(document.createTextNode("@outturn:2012"))
+    row.appendChild(cell);
+
+    cell = document.createElement("td");
+    cell.appendChild(document.createTextNode("@captol:2012"))
     row.appendChild(cell);
 
     row.class='clickable-row';
@@ -85,12 +101,15 @@ function createOtherTable(lstDic,index){
         row.appendChild(cell);
 
         //add data column
-        for (var j = 0; j<4 ; j++) {
+        for (var j = 0; j<7 ; j++) {
 
 
             var cell = document.createElement("td");
-            console.log(dic.data.data[0]);
-            var values = extractData(dic.data.data[0]);
+            //console.log(dic.data.data);
+            //var values = extractData(dic.data.data[0]);
+
+            var values= dic.data.data;
+            //console.log(values);
 
             if(j==0){
                 cell.appendChild(document.createTextNode(dic.title));
@@ -141,8 +160,11 @@ function createOtherTable(lstDic,index){
     }
 
     table.appendChild(tblBody);
-    body.appendChild(table)
+    div.appendChild(table);
+    //body.appendChild(div)
     ////console.log(document.getElementById("toc1").innerHTML );
+
+    //console.log(body.innerHTML );
 }
 
 function test(){
@@ -153,10 +175,10 @@ function test(){
     //var parser = require('xml2json');
 
     var xml = "<foo attr=\"value\">bar</foo>";
-    console.log("input -> %s", xml)
-    var json = parser.toJson(xml);
-    console.log("to json -> %s", json);
+    //console.log("input -> %s", xml)
+//    var json = parser.toJson(xml);
+    //console.log("to json -> %s", json);
 
 }
 
-exports.test = test;
+//exports.test = test;

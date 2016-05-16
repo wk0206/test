@@ -127,10 +127,12 @@ function processXMLdata(input){
 
     var data = input.match(/<bud-data.*\/bud-data>/g);
     var remark = input.match(/<bud-remarks.*\/bud-remarks>/g);
-    //console.log(match);
-    //console.log(remark);
+    ////console.log(data[0]);
+    //////console.log(remark);
 
-    obj["data"] = data;
+    var tempdata = extractData(data[0]);
+    ////console.log(tempdata);
+    obj["data"] = tempdata;
     obj["remark"] = remark;
     /*
     if(tempdata.indexOf("<p>")>0){
@@ -149,8 +151,8 @@ function buildXMLColumn(inputJson){
 }
 
 function buildPage1(inputJson){
-
-    //console.log(inputJson);
+    console.log(inputJson);
+    //////console.log(inputJson);
     var fileDisplayArea = document.getElementById('fileDisplayArea');
     var body = document.getElementsByTagName('body')[0];
 
@@ -175,9 +177,9 @@ function buildPage1(inputJson){
     currentNode.push(inputJson[0]);
     var idn = 0;
     var indString="";
-    console.log("This is the begining-------------");
-    console.log("root add to current node -------------");
-    console.log(inputJson[0].title);
+    //////console.log("This is the begining-------------");
+    //////console.log("root add to current node -------------");
+    //////console.log(inputJson[0].title);
     //loop every element of input Json , build columen and their data
     for (var i=1; i<inputJson.length; i++) {
 
@@ -195,17 +197,17 @@ function buildPage1(inputJson){
             for(var ii = 0 ;ii<idn;ii++){
                 indString+=indentation;
             }
-            console.log(indString+"this is a data cube");
-            console.log("This is the end-------------");
+    //        ////console.log(indString+"this is a data cube");
+    //        ////console.log("This is the end-------------");
         }
         /*
 
-        console.log(inputJson[i]);
-        console.log("current type "+(inputJson[i].type));
-        console.log("check1 "+(inputJson[i-1].type=="node" && inputJson[i].type=="node"));
-        console.log("check2 "+(inputJson[i-1].type=="leaf" && inputJson[i].type=="node"));
-        console.log("check3 "+(inputJson[i].type=="leaf"  && inputJson[i+1].type=="leaf"));
-        console.log("check4 "+(inputJson[i].type=="leaf"  && inputJson[i+1].type=="node"));
+        ////console.log(inputJson[i]);
+        ////console.log("current type "+(inputJson[i].type));
+        ////console.log("check1 "+(inputJson[i-1].type=="node" && inputJson[i].type=="node"));
+        ////console.log("check2 "+(inputJson[i-1].type=="leaf" && inputJson[i].type=="node"));
+        ////console.log("check3 "+(inputJson[i].type=="leaf"  && inputJson[i+1].type=="leaf"));
+        ////console.log("check4 "+(inputJson[i].type=="leaf"  && inputJson[i+1].type=="node"));
 
         */
 
@@ -222,15 +224,16 @@ function buildPage1(inputJson){
             for(var ii = 0 ;ii<idn;ii++){
                 indString+=indentation;
             }
-            console.log(indString+inputJson[i].title);
+            ////console.log(indString+inputJson[i].title);
             if(inputJson[i+1].type=="leaf"){
 
                 var tempNode=[];
                 for (var k = 0 ; k < currentNode.length;k++){
-                    //console.log("-------------------------");
-                    //console.log(currentNode[k].title);
-                    //console.log("-------------------------");
+                    //////console.log("-------------------------");
+                    //////console.log(currentNode[k].title);
+                    //////console.log("-------------------------");
                     tempNode.push(currentNode[k]);
+                    //console.log(currentNode[k].title+"-------------add from current node");
                 }
                 ele["node"]=tempNode;
             }
@@ -238,8 +241,8 @@ function buildPage1(inputJson){
         //previous one is data, current is node, next one is node
         //previous one is data, current is node, next one is data
         if(inputJson[i-1].type=="leaf" && inputJson[i].type=="node") {
-            //console.log("before anything");
-            //console.log(currentNode);
+            //////console.log("before anything");
+            //////console.log(currentNode);
             //console.log("current identity is "+(inputJson[i].identity));
 
             //specical treatment
@@ -248,8 +251,8 @@ function buildPage1(inputJson){
             var length = inputJson[i].identity.length;
 
             for(var j = currentNode.length-1; j>=0 ;j--){
-                //console.log("compare identity is "+(currentNode[j].identity));
-                //console.log("compare identity deleted from currentNode");
+                //////console.log("compare identity is "+(currentNode[j].identity));
+                //////console.log("compare identity deleted from currentNode");
                 if(currentNode[j].identity.length>=length){
                     //currentNode.pop();
                     //currentNode.length=length-1;
@@ -261,17 +264,17 @@ function buildPage1(inputJson){
                     //console.log(currentNode[j].title+"-------------deleted from current node");
                     currentNode.splice(-1,1);
 
-                    //console.log("after deleted");
-                    //console.log(currentNode);
+                    //////console.log("after deleted");
+                    //////console.log(currentNode);
                 }
             }
             //add current one
 /*
-            console.log("current nod is ");
-            console.log(inputJson[i]);
-            console.log(currentNode[0]);
-            console.log(currentNode[1]);
-            console.log(currentNode[2]);
+            ////console.log("current nod is ");
+            ////console.log(inputJson[i]);
+            ////console.log(currentNode[0]);
+            ////console.log(currentNode[1]);
+            ////console.log(currentNode[2]);
 */
 
             idn++;
@@ -281,53 +284,75 @@ function buildPage1(inputJson){
             }
 
             currentNode.push(inputJson[i]);
-            console.log(indString+inputJson[i].title);
-//            console.log("after added");
-//            console.log(currentNode);
+            //console.log(indString+inputJson[i].title);
+//            ////console.log("after added");
+            ////console.log(currentNode);
+            ////console.log(inputJson[i+1]);
             if(inputJson[i+1].type=="leaf"){
 
                 var tempNode=[];
                 for (var k = 0 ; k < currentNode.length;k++){
-                    //console.log("-------------------------");
-                    //console.log(currentNode[k].title);
-                    //console.log("-------------------------");
+                    //////console.log("-------------------------");
+                    //////console.log(currentNode[k].title);
+                    //////console.log("-------------------------");
                     tempNode.push(currentNode[k]);
+                    //console.log(currentNode[k].title+"-------------add from current node");
                 }
                 ele["node"]=tempNode;
             }
         }
 
+        //console.log(ele);
+
         //2.DATA
         //current is data, next one is data
-        if(inputJson[i].type=="leaf"  && inputJson[i+1].type=="leaf"){
-
-            indString="";
-            for(var ii = 0 ;ii<idn;ii++){
-                indString+=indentation;
-            }
-            console.log(indString+"----this is a data cube");
-            currentData.push(inputJson[i]);
+        console.log(i);
+        if(i==67){
+            console.log(inputJson[i]);
         }
-        //current is data, next one is node
-        if(inputJson[i].type=="leaf"  && inputJson[i+1].type=="node"){
-            currentData.push(inputJson[i]);
-            ele["data"]=currentData;
-            currentData=[];
-            nodeAndData.push(ele);
-            ele={};
+        if(i<inputJson.length-1){
+            if(inputJson[i].type=="leaf"  && inputJson[i+1].type=="leaf"){
 
-
-            indString="";
-            for(var ii = 0 ;ii<idn;ii++){
-                indString+=indentation;
+                indString="";
+                for(var ii = 0 ;ii<idn;ii++){
+                    indString+=indentation;
+                }
+                //////console.log(indString+"----this is a data cube");
+                currentData.push(inputJson[i]);
             }
-            console.log(indString+"----this is a data cube");
+            //current is data, next one is node
+            if(inputJson[i].type=="leaf"  && inputJson[i+1].type=="node"){
+                currentData.push(inputJson[i]);
+                ele["data"]=currentData;
+                currentData=[];
+                nodeAndData.push(ele);
+                ele={};
+
+
+                indString="";
+                for(var ii = 0 ;ii<idn;ii++){
+                    indString+=indentation;
+                }
+                //////console.log(indString+"----this is a data cube");
+            }
+        }
+
+        if(i==inputJson.length-1){
+            if(inputJson[i].type=="leaf"){
+
+                indString="";
+                for(var ii = 0 ;ii<idn;ii++){
+                    indString+=indentation;
+                }
+                //////console.log(indString+"----this is a data cube");
+                currentData.push(inputJson[i]);
+            }
         }
 
     }
 
 
-    console.log(nodeAndData);
+    ////console.log(nodeAndData);
     return nodeAndData;
 
 }
@@ -335,6 +360,7 @@ function buildPage1(inputJson){
 
 function formatJson(input){
     //console.log(input);
+    //console.log(input.data[0]);
     var dataAndRemark = input.data;
     var nodeName = input.node;
     var tablename="";
@@ -343,7 +369,8 @@ function formatJson(input){
     var table =[];
     var ele=[];
     for (var i = 0; i < dataAndRemark.length; i ++){
-        var data = ["data","data","data"];
+        var data = input.data[i].data.data;
+        ////console.log(data);
         //lines.push(data);
         var title = dataAndRemark[i].title;
         res.push(data);
@@ -367,17 +394,18 @@ function formatJson(input){
         tablename+=nodeName[i].title+'<br/>';
     }
 
-    //console.log(lines);
-    //console.log(table);
+    //////console.log(lines);
+    //////console.log(table);
     document.getElementById("datasetTitle").value=tablename;
-    //console.log(document.getElementById("datasetTitle"));
+    //////console.log(document.getElementById("datasetTitle"));
     return table;
 
 
 }
 function buildForms(inputJson){
 
-    console.log(inputJson);
+
+    ////console.log(inputJson);
 
     for(var i = 0 ; i < inputJson.length; i++){
     //for(var i = 0 ; i < 1; i++){
@@ -385,25 +413,29 @@ function buildForms(inputJson){
         var tblBody = document.createElement("tbody");
 
 
-        var datas = formatJson(inputJson[8]);
+        if(i==0){
+            var datas = formatJson(inputJson[0]);
+        }
 
+
+        ////console.log(inputJson);
         createOtherTable(inputJson[i],i);
-        //console.log(datas);
+        //////console.log(datas);
         buildJsonCtrl(datas,";");
     }
 }
 
 function processXML(xml){
 
-    //console.log(xml);
-    var match = xml.match(/alias=\"[0-9 ]*\"/g);
+    //////console.log(xml);
+    var match = xml.match(/alias=(\"[0-9 ]*\"){1}/g);
     var length = match.length;
     //processData(csv);
     //var res = xml2json(xml,",");
-    //console.log(match);
-    //console.log(match.length);
-    //console.log(match[0]);
-    //console.log(match[1].substring(7,match[1].length-1));
+    //////console.log(match);
+    //////console.log(match.length);
+    //////console.log(match[0]);
+    //////console.log(match[1].substring(7,match[1].length-1));
 
     var strcture = [];
     var data = [];
@@ -412,13 +444,16 @@ function processXML(xml){
     //
     var count =0;
 
-    for(var i = 0; i <length; i++){
+    for(var i = 0; i <length-1; i++){
         strcture.push(match[i].substring(7,match[i].length-1).split(" "));
+        ////console.log("from "+match[i]);
+        ////console.log("to   "+match[i+1]);
         data.push(xml.substring(xml.indexOf(match[i]),xml.indexOf(match[i+1])));
     }
 
+    //////console.log(match);
 
-    for(var i = 0; i <length; i++) {
+    for(var i = 0; i <length-1; i++) {
 
         ele={};
         ele["id"] = i;
@@ -432,7 +467,7 @@ function processXML(xml){
 
 
 
-        if(i!=length-1){
+        if(i!=length-2){
             if(strcture[i].length==strcture[i+1].length){
                 ele["type"]="leaf";
             }else if(strcture[i].length<strcture[i+1].length){
@@ -442,11 +477,14 @@ function processXML(xml){
             }
 
         }
+        if(i==length-2){
+            ele["type"]="leaf"
+        }
 
         if(ele["type"]=="node"){
             //ele["language"];
             var language = data[i].match(/lang=\"[a-z]{2}\"/g);
-            //console.log(language);
+            //////console.log(language);
             if(language!=null){
                 if(language.length==1){
                     ele["titlelanguage"]=language[0];
@@ -493,7 +531,7 @@ function processXML(xml){
 
             //deal with leaf/data
             var tempdata =data[i];
-            //console.log(tempdata);
+            //////console.log(tempdata);
             if(tempdata.indexOf("<bud-heading><p>")>0){
                 ele["title"]=tempdata.substring(tempdata.indexOf("<p>")+3,tempdata.indexOf("</p>"));
             } else if(tempdata.indexOf("<bud-heading><p lang=")>0){
@@ -501,24 +539,27 @@ function processXML(xml){
                 ele["title"]=tempdata.substring(tempdata.indexOf("<p lang=")+13,tempdata.indexOf("</p>"));
             }
 
+            ////console.log(data[i]);
             ele["data"] = processXMLdata(data[i]);
         }
 
         json.push(ele);
     }
-    //console.log(strcture);
-    //console.log(data);
-    //console.log(json);
-    //console.log("we have "+count+" node");
+    //////console.log(strcture);
+    //////console.log(data);
+    //////console.log(json);
+    //////console.log("we have "+count+" node");
 
     var resJson = buildPage1(json);
-
+    ////console.log(json);
+    ////console.log(resJson);
     buildForms(resJson);
 }
 
 function buildJsonCtrl(datas, delimiterMark){
+    ////console.log(datas);
     for (var i=0; i<datas.length-1; i++) {
-        ////console.log(lines);
+
 
         //build json
         if(i==0){
@@ -568,7 +609,7 @@ function buildJsonCtrl(datas, delimiterMark){
 
                     if(datas[i][y]!=compareData[y]){
                         JSON_ctrl["nodeDataArray"][y].isAttachment=false;
-                        ////console.log("data name :"+JSON_ctrl["nodeDataArray"][y].text+" is set false at "+i);
+                        ////////console.log("data name :"+JSON_ctrl["nodeDataArray"][y].text+" is set false at "+i);
                     }else{
                         continue;
                     }
@@ -632,12 +673,12 @@ function processData(csv) {
 
 function testxml2json(xml){
 
-    console.log("in test xml to json");
+    ////console.log("in test xml to json");
     // Changes XML to JSON
 
     // Create the return object
     var obj = {};
-    console.log(xml.nodeType);
+    ////console.log(xml.nodeType);
     if (xml.nodeType == 1) { // element
 
         // do attributes
@@ -652,7 +693,7 @@ function testxml2json(xml){
         obj = xml.nodeValue;
     }
     // do children
-    console.log("in 2nd test");
+    ////console.log("in 2nd test");
     if (xml.hasChildNodes) {
         for(var i = 0; i < xml.childNodes.length; i++) {
             var item = xml.childNodes.item(i);
@@ -695,14 +736,15 @@ function errorHandler(evt) {
 
 function finishPage1(){
     document.getElementById("page1").style.display = "none";
+    document.getElementById("temp_table").style.display = "none";
 }
 
 function getAsText(fileToRead) {
 
-    console.log(fileToRead);
+    ////console.log(fileToRead);
 
     if(fileToRead.name.substring(fileToRead.name.length-3)=="csv"){
-        console.log("csv processing");
+        ////console.log("csv processing");
         var reader = new FileReader();
         // Read file into memory as UTF-8
         reader.readAsText(fileToRead);
@@ -713,11 +755,11 @@ function getAsText(fileToRead) {
     }
 
     if(fileToRead.name.substring(fileToRead.name.length-3)=="xml"){
-        console.log("xml processing");
+        ////console.log("xml processing");
         var reader = new FileReader();
         // Read file into memory as UTF-8
         reader.readAsText(fileToRead);
-        console.log(reader);
+        ////console.log(reader);
 
         // Handle errors load
         reader.onload =　xmlLoadHandler;
@@ -871,12 +913,12 @@ function refreshTable(){
     //reset table
     resetTable();
 
-    ////console.log(JSON_ctrl);
+    ////////console.log(JSON_ctrl);
 }
 
 function  changeColumnColor( columnName,setMark){
 
-    ////console.log(document.getElementById("toc1").innerHTML);
+    ////////console.log(document.getElementById("toc1").innerHTML);
 
     document.getElementById(columnName);
     var columnNames = document.getElementsByName("columnName");
@@ -937,7 +979,7 @@ function setPeriod(cb){
 
     select.appendChild(option);
 
-    ////console.log(cb.value);
+    ////////console.log(cb.value);
     if(cb.value=="year"){
         for (var i = 1970; i < 2099; i++){
             var option = document.createElement("option");
@@ -988,14 +1030,14 @@ function initialColor(){
 
         }
     }
-
+    ////console.log(JSON_ctrl);
 }
 
 function startPage2(inputType){
 
     document.getElementById("page2").style.display = "block";
     document.getElementById("page2FileName").textContent=document.getElementById("datasetTitle").value;
-    console.log(document.getElementById("datasetTitle").value);
+    ////console.log(document.getElementById("datasetTitle").value);
     addColumnInfo();
 
     //checkbox
@@ -1041,12 +1083,12 @@ function changeCodelist(cb){
         if(JSON_ctrl["nodeDataArray"][i].text == columnName) {
             if(cb.checked){
                 JSON_ctrl["nodeDataArray"][i].useCodelist=true;
-                ////console.log(JSON_ctrl["nodeDataArray"][i].text +" codelist attribute is set to: "+JSON_ctrl["nodeDataArray"][i].useCodelist);
+                ////////console.log(JSON_ctrl["nodeDataArray"][i].text +" codelist attribute is set to: "+JSON_ctrl["nodeDataArray"][i].useCodelist);
                 break;
             } else {
                 //setJSON(columnName, "is" )
                 JSON_ctrl["nodeDataArray"][i].useCodelist=false;
-                ////console.log(JSON_ctrl["nodeDataArray"][i].text +" codelist attribute is set to: "+JSON_ctrl["nodeDataArray"][i].useCodelist);
+                ////////console.log(JSON_ctrl["nodeDataArray"][i].text +" codelist attribute is set to: "+JSON_ctrl["nodeDataArray"][i].useCodelist);
                 break;
             }
         }
@@ -1064,12 +1106,12 @@ function changeDataset(cb){
         if(JSON_ctrl["nodeDataArray"][i].text == columnName) {
             if(cb.checked){
                 JSON_ctrl["nodeDataArray"][i].isAttachment=true;
-                ////console.log(JSON_ctrl["nodeDataArray"][i].text +" dataset attribute is set to: "+JSON_ctrl["nodeDataArray"][i].isAttachment);
+                ////////console.log(JSON_ctrl["nodeDataArray"][i].text +" dataset attribute is set to: "+JSON_ctrl["nodeDataArray"][i].isAttachment);
                 break;
             } else {
                 //setJSON(columnName, "is" )
                 JSON_ctrl["nodeDataArray"][i].isAttachment=false;
-                ////console.log(JSON_ctrl["nodeDataArray"][i].text +" dataset attribute is set to: "+JSON_ctrl["nodeDataArray"][i].isAttachment);
+                ////////console.log(JSON_ctrl["nodeDataArray"][i].text +" dataset attribute is set to: "+JSON_ctrl["nodeDataArray"][i].isAttachment);
                 break;
             }
         }
@@ -1355,7 +1397,7 @@ function addColumnInfo(){
 
     //removeTable("toc0");
     initColumnInfo(lines);
-    //console.log(lines);
+    console.log(lines);
     initColumnJason();
     createTable(columnInfo);
 }
@@ -1403,15 +1445,15 @@ function initColumnJason(){
         ele["value"] = columnvalue;
         lst.push(ele) ;
 
-        ////console.log(columnInfo[i]);
+        ////////console.log(columnInfo[i]);
     } ;
     JSON_data["nodeDataArray"] = lst;
     JSON_data["linkDataArray"] = [];
-    //console.log(lst);
+    //////console.log(lst);
 
     //getColumndata("MS Name");
 
-    ////console.log(lst);
+    ////////console.log(lst);
 }
 
 function createTable(lstDic){
@@ -1483,7 +1525,7 @@ function createTable(lstDic){
 
     table.appendChild(tblBody);
     // body.appendChild(table)
-    ////console.log(document.getElementById("toc1").innerHTML );
+    ////////console.log(document.getElementById("toc1").innerHTML );
 }
 
 function checkDataset(input){
@@ -1516,7 +1558,7 @@ function checkAttachment(DSD,input){
 
     if(input.isAttachment){
         var temp=DSD.substring(0,DSD.length-3);
-        ////console.log(JSON_ctrl["nodeDataArray"][i].isAttachment);
+        ////////console.log(JSON_ctrl["nodeDataArray"][i].isAttachment);
         res=temp +";\n \t\t\t\t qb:componentAttachment qb:DataSet ],\n";
         return res;
     };
@@ -1645,7 +1687,7 @@ function buildProperty(node,input){
 
 function composeDSDSingleProperty(node , input){
 
-//console.log("this is for composeSingleProperty"+node);
+//////console.log("this is for composeSingleProperty"+node);
 
     //Budgetary Unit
     var mapping = node.mapping;
@@ -1735,17 +1777,17 @@ function composeDSD(){
     var input =[shortName,fullNmae,interval,identity]
 
     prifix = composeDSDPrifix(input);
-    ////console.log(prifix);
+    ////////console.log(prifix);
     middle = composeDSDMiddle(input);
-    ////console.log(middle);
+    ////////console.log(middle);
     properties = composeDSDProperties(input);
-    ////console.log(properties);
+    ////////console.log(properties);
 
     DSD = prifix + middle + properties;
 
     DSDfinal=DSD;
     //download("DSD",DSD);
-    ////console.log(DSD);
+    ////////console.log(DSD);
 }
 
 function download(filename, text,id) {
@@ -1754,9 +1796,9 @@ function download(filename, text,id) {
     element.setAttribute('download', filename);
    */
 
-    //console.log(filename);
-    //console.log(text);
-    //console.log(id);
+    //////console.log(filename);
+    //////console.log(text);
+    //////console.log(id);
 
     var data=[];
     data.push(text);
@@ -1766,7 +1808,7 @@ function download(filename, text,id) {
         // Specify the filename using the File constructor, but ...
         file = new File(data, filename, properties);
     } catch (e) {
-        console.log(e);
+        ////console.log(e);
         // ... fall back to the Blob constructor if that isn't supported.
         file = new Blob(data, properties);
     }
@@ -1880,17 +1922,17 @@ function include(array, ele){
 function removeDiff(inputArray){
     var res=[];
     res.push(inputArray[0]);
-    //console.log(res);
+    //////console.log(res);
     for(var i = 1; i < inputArray.length ; i++){
 
-        ////console.log("two elements"+" are same: "+compare(inputArray[i],inputArray[i-1]));
+        ////////console.log("two elements"+" are same: "+compare(inputArray[i],inputArray[i-1]));
         if(!compare(inputArray[i],inputArray[i-1])){
 
-            ////console.log("this element is inside the array :"+include(res,inputArray[i]));
+            ////////console.log("this element is inside the array :"+include(res,inputArray[i]));
             if(!include(res,inputArray[i])){
-                ////console.log("this element is inside the array :"+include(res,inputArray[i]));
-                ////console.log("this array is :"+res);
-                ////console.log("element added : "+inputArray[i][0]+", "+inputArray[i][1]+", "+inputArray[i][2]);
+                ////////console.log("this element is inside the array :"+include(res,inputArray[i]));
+                ////////console.log("this array is :"+res);
+                ////////console.log("element added : "+inputArray[i][0]+", "+inputArray[i][1]+", "+inputArray[i][2]);
                 res.push(inputArray[i]);
             }
         }
@@ -1932,7 +1974,7 @@ function getMultiColumndata(names){
     }
 
 
-    //console.log(column0);
+    //////console.log(column0);
     for(var i = 0; i < column0.length ; i++){
         if(names.length==1){
             var tempData=[column0[i]];
@@ -1943,7 +1985,7 @@ function getMultiColumndata(names){
         }
 
         columnData.push(tempData);
-        ////console.log(tempData);
+        ////////console.log(tempData);
     }
 
     var res = removeDiff(columnData);
@@ -1974,7 +2016,7 @@ function composeCodelistSingle(node, input){
 
     var rows = getMultiColumndata(names);
 
-    //console.log(rows);
+    //////console.log(rows);
 
     var res="";
 
@@ -2012,7 +2054,7 @@ function composeCodelistSingle(node, input){
         res+=row;
 
     }
-    ////console.log(res);
+    ////////console.log(res);
     if(node.specificname=="" || node.specificname!=null){
         var codelistName=input[0]+"-codelist:"+node.concept+" a skos:ConceptSchema ;\n";
 
@@ -2099,7 +2141,7 @@ function checkMatching(checkArray, CLvalue){
 
 
 function composeDatasetData(){
-    console.log("enter composeDatasetData");
+    ////console.log("enter composeDatasetData");
     //for (var  i = 0; i )
     //JSON_data JSON_ctrl JSON_opt
 
@@ -2109,7 +2151,7 @@ function composeDatasetData(){
     var CLvalue=[];
     for (var  i = 0; i < CODELISTfinal.length ; i++){
         var CLstring = CODELISTfinal[0];
-        //console.log(CODELISTfinal[0]);
+        //////console.log(CODELISTfinal[0]);
         //var CLstring = "";
         var re=/skos:notation *\".*\"/g;
         var re2= /\".*\"/g;
@@ -2138,7 +2180,7 @@ function composeDatasetData(){
 
         var ele=[CLid,CLname, CLmapping];
         CLvalue.push(ele);
-        console.log(CLvalue);
+        ////console.log(CLvalue);
     }
 
     var shortName=document.getElementById("short").value;
@@ -2185,7 +2227,7 @@ function composeDatasetData(){
 }
 
 function composeDatasetDSD(){
-    console.log("enter composeDatasetDSD");
+    ////console.log("enter composeDatasetDSD");
 
 
     var shortName=document.getElementById("short").value;
@@ -2214,7 +2256,7 @@ function composeDatasetDSD(){
     for(var i =0; i < nodelength; i++){
 
         var node = JSON_opt["nodeDataArray"][i];
-        console.log(node);
+        ////console.log(node);
         res+="qb:"+node.DSD0+" "+node.DSD1 + "-"+node.DSD2+ ":"+node.DSD3+";\n"
         res+=node.DSD4+".\n"
         res+=node.DSD5+".\n"
@@ -2230,7 +2272,7 @@ function composeDatasetDSD(){
     }
 
 
-    console.log(res);
+    ////console.log(res);
     return res;
 }
 
@@ -2381,7 +2423,7 @@ function startPage3(){
 
         div_download.appendChild(aTag);
         div_download.appendChild(document.createElement("hr"));
-        console.log(aTag);
+        ////console.log(aTag);
         var filename = codelistNum+'.ttl'
         var id = codelistNum+"_download"
         download(filename ,CODELISTfinal[i],id);

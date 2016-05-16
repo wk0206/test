@@ -417,7 +417,23 @@ function xml2json(xml, tab) {
 
 
 function extractData(input){
-    var values = input.match(/<figure>(.*?)(<\/figure>){1}/g)
 
+    //<figure>103 414</figure>
+    var figure = input.match(/<figure>(.*?)(<\/figure>){1}/g);
+
+    //catpol="5.2.81"
+    var captol = input.match(/catpol=(\"(.*?)\"){1}/g);
+    //console.log(input);
+    var values = [];
+
+    for (var i = 0; i < figure.length ; i ++){
+        values.push(figure[i].replace("<figure>","").replace("</figure>",""));
+        if(captol!=null){
+            values.push(captol[i].match(/(["'])(?:(?=(\\?))\2.)*?\1/g)[0]);
+        }
+
+    }
+
+   // var values = [1,2,3];
     return values;
 }
