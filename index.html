@@ -35,7 +35,7 @@
 
         <div class="pg1">
             <label>From</label><input type="text" name = "interval  " id="year_begin" value = "2014" >
-            <label>To</label><input type="text" name = "interval" id="year_end" value = "2020">
+            <label>To</label><input type="text" name = "interval" id="year_end" value = "2014">
         </div>
 
             <div>
@@ -152,10 +152,12 @@
                 <hr/>
 
                 <div>
-                    <input type="checkbox" id="codelist_specifySource" onchange=changeCodelist(this) ><label>Codelist specified in a separate resource</label>
-                </div>
-                <div>
-                    <input type="text" placeholder="Seclet resource">
+                    <input type="checkbox" id="codelist_specifySource" onchange=setSourceList(this) ><label>Codelist specified in a separate resource</label>
+
+                    <select id="source_list" >
+
+                    </select>
+
                 </div>
                 <hr/>
                 <div>

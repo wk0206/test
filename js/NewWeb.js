@@ -306,7 +306,7 @@ function buildPage1(inputJson){
 
         //2.DATA
         //current is data, next one is data
-        console.log(i);
+        //console.log(i);
         if(i==67){
             console.log(inputJson[i]);
         }
@@ -364,20 +364,35 @@ function formatJson(input){
     var dataAndRemark = input.data;
     var nodeName = input.node;
     var tablename="";
+    var yearBegin = document.getElementById("year_begin").value.substring(0,4);
+    var yearEnd = document.getElementById("year_end").value.substring(0,4);
+    var interval=0;
+    if(yearBegin == yearEnd){
+        interval = yearBegin;
+    }else {
+        interval = document.getElementById("year_begin").value.substring(0,4)+"-"+document.getElementById("year_end").value.substring(0,4);
+    }
 
     var res = [];
     var table =[];
     var ele=[];
+    ele=[("@budget:"+interval), ("@captol:"+(interval)) ,("@budget:"+(interval-1)),("@captol:"+(interval-1)),("@budget:"+(interval-2)),("@captol:"+(interval-1))]
+    lines.push(ele);
+    table.push(ele);
+
     for (var i = 0; i < dataAndRemark.length; i ++){
         var data = input.data[i].data.data;
         ////console.log(data);
         //lines.push(data);
         var title = dataAndRemark[i].title;
+        console.log(data);
         res.push(data);
-        ele.push(title);;
+        table.push(data);
+        lines.push(data);
+        //ele.push(title);;
     }
-
-    lines.push(ele);
+    //ele=["@budget:"+interval, "@captol:"+(interval) ,"@budget:"+(interval-1),"@captol:"+(interval-1)"@budget:"+(interval-2),"@captol:"+(interval-1)]
+    //lines.push(ele);
 
 
     for (var i = 0; i < res[0].length; i ++){
@@ -385,17 +400,18 @@ function formatJson(input){
         for (var j = 0; j < res.length; j ++){
             str.push(res[j][i]);
         }
-        lines.push(str);
+        //lines.push(str);
+        //console.log(str);
         table.push(str);
     }
 
-
+    //console.log(lines);
     for(var i = 0; i < nodeName.length; i++){
         tablename+=nodeName[i].title+'<br/>';
     }
 
     //////console.log(lines);
-    //////console.log(table);
+    console.log(table);
     document.getElementById("datasetTitle").value=tablename;
     //////console.log(document.getElementById("datasetTitle"));
     return table;
@@ -405,24 +421,24 @@ function formatJson(input){
 function buildForms(inputJson){
 
 
-    ////console.log(inputJson);
-
+    console.log(inputJson);
+    var datas=[];
     for(var i = 0 ; i < inputJson.length; i++){
     //for(var i = 0 ; i < 1; i++){
-        var table = document.getElementById("toc0");
-        var tblBody = document.createElement("tbody");
 
 
         if(i==0){
-            var datas = formatJson(inputJson[0]);
+            datas = formatJson(inputJson[0]);
         }
 
 
         ////console.log(inputJson);
         createOtherTable(inputJson[i],i);
-        //////console.log(datas);
-        buildJsonCtrl(datas,";");
+        //console.log(datas);
+        //buildJsonCtrl(datas,";");
     }
+    buildJsonCtrl(datas,";");
+
 }
 
 function processXML(xml){
@@ -557,9 +573,8 @@ function processXML(xml){
 }
 
 function buildJsonCtrl(datas, delimiterMark){
-    ////console.log(datas);
+    console.log(datas);
     for (var i=0; i<datas.length-1; i++) {
-
 
         //build json
         if(i==0){
@@ -1399,6 +1414,7 @@ function addColumnInfo(){
     initColumnInfo(lines);
     console.log(lines);
     initColumnJason();
+    console.log(columnInfo);
     createTable(columnInfo);
 }
 
@@ -1458,6 +1474,8 @@ function initColumnJason(){
 
 function createTable(lstDic){
 
+
+    //console.log(lstDic);
     var body = document.getElementsByTagName('body')[0];
     var table = document.getElementById("toc1");
     var tblBody = document.createElement("tbody");
@@ -1770,7 +1788,14 @@ function composeDSD(){
     var shortName=document.getElementById("short").value;
     var fullNmae=document.getElementById("full").value;
 
-    var interval = document.getElementById("year_begin").value.substring(0,4)+"-"+document.getElementById("year_end").value.substring(0,4);
+    var yearBegin = document.getElementById("year_begin").value.substring(0,4);
+    var yearEnd = document.getElementById("year_end").value.substring(0,4);
+    if(yearBegin == yearEnd){
+        var interval = yearBegin;
+    }else {
+        var interval = document.getElementById("year_begin").value.substring(0,4)+"-"+document.getElementById("year_end").value.substring(0,4);
+    }
+
     //var interval = "2000-2004"
     var identity = shortName.toUpperCase()+"-"+interval;
 
@@ -2373,6 +2398,26 @@ function initialJSONopt(){
     }
     JSON_opt["nodeDataArray"] = lst;
     JSON_opt["linkDataArray"] = [];
+}
+
+function setSourceList(){
+
+    var list = selectSource();
+    var select = document.getElementById("source_list");
+    for(var i = 0; i < list.length; i++){
+        var option = document.createElement("option");
+        option.value=list[i];
+        option.text=list[i];
+
+        select.appendChild(option);
+    }
+
+    console.log(select.innerHTML);
+}
+
+function selectSource(){
+    var codelist = ["eu-budget-nomenclature-2014","catpol"]
+    return codelist;
 }
 
 function toPage3(){

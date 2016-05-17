@@ -48,6 +48,14 @@ function createOtherTable(lstDic,index){
     //body.appendChild(title);
     var row = document.createElement("tr");
     var cell = document.createElement("td");
+    var yearBegin = document.getElementById("year_begin").value.substring(0,4);
+    var yearEnd = document.getElementById("year_end").value.substring(0,4);
+    var interval=0;
+    if(yearBegin == yearEnd){
+        interval = yearBegin;
+    }else {
+        interval = document.getElementById("year_begin").value.substring(0,4)+"-"+document.getElementById("year_end").value.substring(0,4);
+    }
     //cell.appendChild(document.createTextNode(""))
     cell.appendChild(document.createTextNode(""));
     row.appendChild(cell);
@@ -56,28 +64,28 @@ function createOtherTable(lstDic,index){
     row.appendChild(cell);
 
     cell = document.createElement("td");
-    cell.appendChild(document.createTextNode("@budget:2014"))
+    cell.appendChild(document.createTextNode("@budget:"+interval))
     row.appendChild(cell);
 
     cell = document.createElement("td");
-    cell.appendChild(document.createTextNode("@captol:2014"))
+    cell.appendChild(document.createTextNode("@captol:"+interval))
     row.appendChild(cell);
 
     cell = document.createElement("td");
-    cell.appendChild(document.createTextNode("@budget:2013"))
+    cell.appendChild(document.createTextNode("@budget:"+(interval-1)))
     row.appendChild(cell);
 
     cell = document.createElement("td");
-    cell.appendChild(document.createTextNode("@captol:2013"))
+    cell.appendChild(document.createTextNode("@captol:"+(interval-1)))
     row.appendChild(cell);
 
 
     cell = document.createElement("td");
-    cell.appendChild(document.createTextNode("@outturn:2012"))
+    cell.appendChild(document.createTextNode("@outturn:"+(interval-2)))
     row.appendChild(cell);
 
     cell = document.createElement("td");
-    cell.appendChild(document.createTextNode("@captol:2012"))
+    cell.appendChild(document.createTextNode("@captol:"+(interval-2)))
     row.appendChild(cell);
 
     row.class='clickable-row';
