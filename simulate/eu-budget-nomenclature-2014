@@ -1,0 +1,140 @@
+# ----- DSD-specific namespaces -----
+@prefix esif:             <http://data.openbudgets.eu/ontology/eu-budget/> .
+@prefix esif-codelist:    <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/> .
+@prefix esif-dimension:   <http://data.openbudgets.eu/ontology/dsd/ESIF-2014-2020/dimension/> .
+@prefix esif-measure:     <http://data.openbudgets.eu/ontology/dsd/ESIF-2014-2020/measure/> .
+
+# ----- OpenBudgets.eu namespaces -----
+@prefix obeu:             <http://data.openbudgets.eu/ontology/> .
+@prefix obeu-attribute:   <http://data.openbudgets.eu/ontology/dsd/attribute/> .
+@prefix obeu-dimension:   <http://data.openbudgets.eu/ontology/dsd/dimension/> .
+@prefix obeu-measure:     <http://data.openbudgets.eu/ontology/dsd/measure/> .
+
+# ----- Generic namespaces ------
+@prefix foaf:             <http://xmlns.com/foaf/0.1/> .
+@prefix org:              <http://www.w3.org/ns/org#> .
+@prefix owl:              <http://www.w3.org/2002/07/owl#> .
+@prefix qb:               <http://purl.org/linked-data/cube#> .
+@prefix rdf:              <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:             <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:             <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:              <http://www.w3.org/2001/XMLSchema#> .
+
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/AT> skos:notation "AT" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/BE> skos:notation "BE" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/BG> skos:notation "BG" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/CY> skos:notation "CY" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/CZ> skos:notation "CZ" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/DE> skos:notation "DE" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/DK> skos:notation "DK" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/EE> skos:notation "EE" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/ES> skos:notation "ES" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/FI> skos:notation "FI" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/FR> skos:notation "FR" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/GR> skos:notation "GR" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/HR> skos:notation "HR" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/HU> skos:notation "HU" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/IE> skos:notation "IE" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/IT> skos:notation "IT" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/LT> skos:notation "LT" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/LU> skos:notation "LU" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/LV> skos:notation "LV" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/MT> skos:notation "MT" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/NL> skos:notation "NL" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/PL> skos:notation "PL" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/PT> skos:notation "PT" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/RO> skos:notation "RO" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/SE> skos:notation "SE" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/SI> skos:notation "SI" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/SK> skos:notation "SK" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/TC> skos:notation "TC" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+<http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/UK> skos:notation "UK" ;
+a skos:Concept , <http://data.openbudgets.eu/resource/ESIF-2014-2020/aa> ;
+skos:inschema <http://data.openbudgets.eu/resource/ESIF-2014-2020/codelist/aa/> .
+
+esif-codelist:aa a skos:ConceptSchema ;

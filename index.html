@@ -155,9 +155,13 @@
                     <input type="checkbox" id="codelist_specifySource" onchange=setSourceList(this) ><label>Codelist specified in a separate resource</label>
 
                     <select id="source_list" >
+                        <option> </option>
 
                     </select>
-
+                    <input type="file" id="files" name="files[]" multiple />
+                    <script>
+                        document.getElementById('files').addEventListener('change', handleFileSelect, false);
+                    </script>
                 </div>
                 <hr/>
                 <div>

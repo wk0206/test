@@ -437,3 +437,102 @@ function extractData(input){
    // var values = [1,2,3];
     return values;
 }
+
+function handleFileSelect(evt) {
+    var files = evt.target.files; // FileList object
+    if(files[0])
+    {
+        var reader = new FileReader();
+        reader.readAsText(files[0]);
+        reader.onload = loaded;
+    }
+}
+
+function loaded(evt) {
+    var fileString = evt.target.result;
+    alert(fileString);
+}
+
+function readSingleFile(e) {
+    var file = e.target.files[0];
+    if (!file) {
+        return;
+    }
+    var reader = new FileReader();
+    reader.onload = function(e) {
+        var contents = e.target.result;
+        displayContents(contents);
+    };
+    reader.readAsText(file);
+}
+
+function readTextFile(file)
+{
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+                console.log(allText);
+            }
+        }
+    }
+    console.log(rawFile);
+    //rawFile.send(null);
+}
+
+
+function getFiles(dir){
+    fileList = [];
+
+    var files = fs.readdirSync(dir);
+    for(var i in files){
+        if (!files.hasOwnProperty(i)) continue;
+        var name = dir+'/'+files[i];
+        if (!fs.statSync(name).isDirectory()){
+            fileList.push(name);
+        }
+    }
+    return fileList;
+}
+
+
+function loadHandler2(event) {
+
+    var str = event.target.result;
+
+    CODELISTfinal.push(str);
+}
+
+
+function handleFileSelect(evt) {
+    var files = evt.target.files; // FileList object
+
+    // files is a FileList of File objects. List some properties.
+    var output = [];
+    for (var i = 0, f; f = files[i]; i++) {
+        //output.push('<li><strong>', escape(f.name), '</strong> (', f.type || 'n/a', ') - ',
+        //    f.size, ' bytes, last modified: ',
+        //    f.lastModifiedDate.toLocaleDateString(), '</li>');
+
+        var reader = new FileReader();
+        reader.readAsText(f);
+        // Closure to capture the file information.
+        reader.onload = loadHandler2;
+
+        // Read in the image file as a data URL.
+        //reader.readAsDataURL(f);
+
+        console.log(reader);
+
+    }
+    //document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
+
+
+}
+
+
