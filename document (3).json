@@ -1,0 +1,2837 @@
+{
+  "page": 0,
+  "page_size": 1000,
+  "total_cell_count": 402,
+  "cell": [],
+  "status": "ok",
+  "cells": [
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 140408809.03,
+      "_count": 2654
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 142000076.12,
+      "_count": 4990
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 108761593.86,
+      "_count": 4325
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 129475796.02,
+      "_count": 3139
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2006",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 416062673.37,
+      "_count": 1160
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Karpenissi",
+      "global__amount__0397f.sum": 41548215.12,
+      "_count": 7870
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 30561608.06,
+      "_count": 6022
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 195155132.59,
+      "_count": 4929
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 110764856.94,
+      "_count": 751
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2006",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 467003799.02,
+      "_count": 1160
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 31953388.53,
+      "_count": 569
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 14616350.45,
+      "_count": 2829
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 68952037.66,
+      "_count": 719
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 30681305.28,
+      "_count": 4450
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2004",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 332125639.4,
+      "_count": 782
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2007",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 411669637.05,
+      "_count": 942
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 864693286.92,
+      "_count": 1931
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 841241630.41,
+      "_count": 1295
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": -44825.86,
+      "_count": 3494
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 528749812.69,
+      "_count": 1675
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 43908000,
+      "_count": 6022
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 86358788.26,
+      "_count": 4787
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 598210267.61,
+      "_count": 1380
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 570368641.09,
+      "_count": 1916
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 0,
+      "_count": 3494
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2002",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 32466190.94,
+      "_count": 837
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 249840048.87,
+      "_count": 4419
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 37937299.5,
+      "_count": 5100
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 150034721.54,
+      "_count": 2829
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 3310153.39,
+      "_count": 403
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2005",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 126215525.02,
+      "_count": 2017
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 97686107.72,
+      "_count": 5293
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 51883952.09,
+      "_count": 5011
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 17289723.49,
+      "_count": 418
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2009",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 219334078.71,
+      "_count": 2387
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 164987834.44,
+      "_count": 2540
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2005",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 458988043.47,
+      "_count": 942
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 235745455.82,
+      "_count": 2445
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2008",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 129177954.84,
+      "_count": 2333
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 27615709.87,
+      "_count": 2912
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2002",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 77374126.92,
+      "_count": 992
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 41456055.51,
+      "_count": 4890
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2004",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 60611247.84,
+      "_count": 1074
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 226768252.91,
+      "_count": 4680
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2006",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 85175893.06,
+      "_count": 2115
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 149547368.08,
+      "_count": 751
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 820000000,
+      "_count": 1931
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 395481762.54,
+      "_count": 1076
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 128646578.59,
+      "_count": 3139
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 57042747.4,
+      "_count": 4497
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 30663293.88,
+      "_count": 4929
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 34191338.77,
+      "_count": 709
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 23974714.21,
+      "_count": 4219
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 37063714.18,
+      "_count": 3800
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 67207426.84,
+      "_count": 3873
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Karpenissi",
+      "global__amount__0397f.sum": 42966432.8,
+      "_count": 7870
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 317802857.23,
+      "_count": 2985
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 873327689.29,
+      "_count": 1916
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 60149544.84,
+      "_count": 3736
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2007",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 79601623.94,
+      "_count": 2027
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 32006090.04,
+      "_count": 2912
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 24420790.3,
+      "_count": 2951
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 32604727.76,
+      "_count": 573
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2002",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 54780621.1,
+      "_count": 992
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 61389220.02,
+      "_count": 4787
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Rethymno",
+      "global__amount__0397f.sum": 125096098.25,
+      "_count": 1168
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 140575243.54,
+      "_count": 906
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 34419955.65,
+      "_count": 9852
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 72975482.87,
+      "_count": 2499
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 274399080.78,
+      "_count": 3389
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 363587520.91,
+      "_count": 1443
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 824808029.15,
+      "_count": 1824
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 36491667.49,
+      "_count": 3646
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 16830739.05,
+      "_count": 4704
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 63312118.07,
+      "_count": 4929
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 32962128.91,
+      "_count": 2558
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 63326709.88,
+      "_count": 4497
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2004",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 706927221,
+      "_count": 782
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 63605712.89,
+      "_count": 3800
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 59931066.27,
+      "_count": 403
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2009",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 115623850.51,
+      "_count": 2131
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 833007262.72,
+      "_count": 1076
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 157422984.7,
+      "_count": 2985
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 42700000,
+      "_count": 2558
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 38377057.78,
+      "_count": 2708
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 234095548.2,
+      "_count": 2445
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 87082292.2,
+      "_count": 4955
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 450035278.47,
+      "_count": 1664
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2005",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 134882558.53,
+      "_count": 2017
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 34067138.37,
+      "_count": 2708
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2005",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 71447580.96,
+      "_count": 2017
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 30045439.47,
+      "_count": 3664
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 65777481.5,
+      "_count": 2264
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 46586160.88,
+      "_count": 4787
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 57890640.72,
+      "_count": 4962
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 105022201.4,
+      "_count": 4419
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2009",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 136573097.21,
+      "_count": 2387
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 417932558.54,
+      "_count": 1572
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 105433799.95,
+      "_count": 4964
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2003",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 79847109.98,
+      "_count": 1029
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 115100126.56,
+      "_count": 4227
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 503068439.47,
+      "_count": 1380
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 114928450.76,
+      "_count": 3115
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 52275343.61,
+      "_count": 8653
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 472188632.43,
+      "_count": 1319
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 397805067.51,
+      "_count": 1076
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 16327260.81,
+      "_count": 5681
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 98195301.56,
+      "_count": 2071
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 773360555,
+      "_count": 1443
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 42964710.67,
+      "_count": 4627
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 270163060.65,
+      "_count": 1457
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 82505175.04,
+      "_count": 4890
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 67621140.27,
+      "_count": 4787
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 414673202.32,
+      "_count": 1443
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 195755632.47,
+      "_count": 2646
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2004",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 58193870.31,
+      "_count": 1074
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 154368297.92,
+      "_count": 2573
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 30547879.27,
+      "_count": 4990
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 5021089.86,
+      "_count": 6034
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 110286249.78,
+      "_count": 4964
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 45183842.18,
+      "_count": 6022
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 30806634.89,
+      "_count": 5691
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 942495000,
+      "_count": 1572
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 96669800.57,
+      "_count": 940
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2007",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 110096287.04,
+      "_count": 2273
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 217220921.39,
+      "_count": 9852
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 113062611.89,
+      "_count": 4419
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 39305145.06,
+      "_count": 2951
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Rethymno",
+      "global__amount__0397f.sum": 38289528.04,
+      "_count": 1168
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2009",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 130734896.57,
+      "_count": 2387
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 14056108.67,
+      "_count": 3520
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 98462721.76,
+      "_count": 3062
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2009",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 476430546.02,
+      "_count": 1527
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 86852207.24,
+      "_count": 940
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 640235428.44,
+      "_count": 1916
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2008",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 232806286.69,
+      "_count": 2333
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 75188482.78,
+      "_count": 2540
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 51900425.36,
+      "_count": 3704
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 201063686.17,
+      "_count": 4962
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 873802039.75,
+      "_count": 1916
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 75672750.04,
+      "_count": 760
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 113859809.29,
+      "_count": 3389
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 489136415.2,
+      "_count": 1295
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 26975467.21,
+      "_count": 4062
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2004",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 31705840.72,
+      "_count": 917
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 309567223.3,
+      "_count": 2985
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 177322119.79,
+      "_count": 4964
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2005",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 51368026.16,
+      "_count": 1777
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 163259217.23,
+      "_count": 3115
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Karpenissi",
+      "global__amount__0397f.sum": 8937001.16,
+      "_count": 7870
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Karpenissi",
+      "global__amount__0397f.sum": 28698018.16,
+      "_count": 4099
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 146226195,
+      "_count": 2573
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 45583836.13,
+      "_count": 520
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 186208630.4,
+      "_count": 2868
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2003",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 84039939.78,
+      "_count": 1029
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 513511170.15,
+      "_count": 1675
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 76929527.26,
+      "_count": 751
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 232745926.73,
+      "_count": 988
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 146162307.52,
+      "_count": 716
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 153636133.61,
+      "_count": 3494
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 33200000,
+      "_count": 2708
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 195401442.68,
+      "_count": 2868
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2004",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 686743000,
+      "_count": 782
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 201742421,
+      "_count": 4929
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 117422527.84,
+      "_count": 2445
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2006",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 522211279.92,
+      "_count": 1160
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 95793977.8,
+      "_count": 2181
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 818000000,
+      "_count": 1824
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 624654290.19,
+      "_count": 1824
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 80695043.24,
+      "_count": 760
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 36670273.95,
+      "_count": 4890
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 59698451.88,
+      "_count": 573
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2004",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 474146714.57,
+      "_count": 782
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 43646678.95,
+      "_count": 5691
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2008",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 834172000,
+      "_count": 1036
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 48457474.1,
+      "_count": 2912
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 11799483.36,
+      "_count": 403
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Karpenissi",
+      "global__amount__0397f.sum": 0,
+      "_count": 3555
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 18492002.89,
+      "_count": 9998
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Karpenissi",
+      "global__amount__0397f.sum": 10871946.31,
+      "_count": 7870
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 16661178.75,
+      "_count": 2273
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 141393186.52,
+      "_count": 5100
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 990718000,
+      "_count": 1572
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 23397857.92,
+      "_count": 3704
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 259181965.36,
+      "_count": 2654
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 88701151.97,
+      "_count": 4905
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Karpenissi",
+      "global__amount__0397f.sum": 0,
+      "_count": 3885
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 86420312.74,
+      "_count": 4049
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 222639198.45,
+      "_count": 2931
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 74578573.63,
+      "_count": 2558
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 144010980.4,
+      "_count": 906
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 17575297.28,
+      "_count": 3877
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 117352881.31,
+      "_count": 2868
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 7145301.71,
+      "_count": 2829
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 59280000,
+      "_count": 2912
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 201824483.89,
+      "_count": 9998
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 95606234.78,
+      "_count": 4497
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 201025662.46,
+      "_count": 4680
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 29347518.59,
+      "_count": 2951
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 154070203.29,
+      "_count": 4962
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 27641629.14,
+      "_count": 6022
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 257831664.32,
+      "_count": 2654
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2007",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 544506971.14,
+      "_count": 942
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 301903670.09,
+      "_count": 3139
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 202009792.39,
+      "_count": 4227
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 445671548.95,
+      "_count": 1675
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 162212500,
+      "_count": 5293
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 115075427.64,
+      "_count": 3115
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 31789519.85,
+      "_count": 4401
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 87587168.22,
+      "_count": 4721
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2009",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 681484244.53,
+      "_count": 1527
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 759490341,
+      "_count": 1076
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2007",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 105580065.54,
+      "_count": 2273
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2008",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 211339839.35,
+      "_count": 2333
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2008",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 457466232.71,
+      "_count": 1036
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 27400262.92,
+      "_count": 4580
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 126097388.57,
+      "_count": 2768
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2009",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 236825924.6,
+      "_count": 2387
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 105090820.76,
+      "_count": 2573
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 60124497.52,
+      "_count": 4955
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 179384500,
+      "_count": 4964
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2009",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 550147383.55,
+      "_count": 1527
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 99164523.34,
+      "_count": 791
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2007",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 165583842.16,
+      "_count": 2273
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 54730346.67,
+      "_count": 4325
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2006",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 65356404.11,
+      "_count": 1875
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 739000000,
+      "_count": 1380
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 64644012.87,
+      "_count": 9852
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2006",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 136604787.03,
+      "_count": 2115
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 22253181.52,
+      "_count": 2931
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 103704656.26,
+      "_count": 2540
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Karpenissi",
+      "global__amount__0397f.sum": 46269079.88,
+      "_count": 4099
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 815334479.08,
+      "_count": 1443
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 58121594.52,
+      "_count": 2274
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 11223016.6,
+      "_count": 3618
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 22361924.52,
+      "_count": 940
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 45089491.96,
+      "_count": 2518
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 57426818.26,
+      "_count": 3609
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 82107288.42,
+      "_count": 716
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 410019139.56,
+      "_count": 1319
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 25468143.04,
+      "_count": 3704
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 43096183.99,
+      "_count": 3704
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 17594360.53,
+      "_count": 1763
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 910935389.94,
+      "_count": 1319
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 580576199.91,
+      "_count": 1295
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 35184172.25,
+      "_count": 573
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 71442702.77,
+      "_count": 791
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2003",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 56239524.47,
+      "_count": 1029
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 242905580.84,
+      "_count": 3115
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 60471231.88,
+      "_count": 573
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 48526601.43,
+      "_count": 4325
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 150000914.69,
+      "_count": 3062
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 489337665.25,
+      "_count": 1572
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 60990258.38,
+      "_count": 4497
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2007",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 610740000,
+      "_count": 942
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 65303173.22,
+      "_count": 3673
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 108929848.06,
+      "_count": 2868
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2007",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 458988043.47,
+      "_count": 942
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2005",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 623866819,
+      "_count": 942
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 61466239.89,
+      "_count": 4103
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 116196709.34,
+      "_count": 2768
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 92512368.91,
+      "_count": 5293
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2007",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 173046919.5,
+      "_count": 2273
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2006",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 650126319,
+      "_count": 1160
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 114159459.56,
+      "_count": 2482
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 52972766.38,
+      "_count": 2699
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 112926084.05,
+      "_count": 4680
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 165864351.58,
+      "_count": 5691
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 134342135.72,
+      "_count": 716
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 106313038.77,
+      "_count": 4721
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 758000000,
+      "_count": 1664
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 528650224.38,
+      "_count": 1664
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 61609968.16,
+      "_count": 8510
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 12774979.17,
+      "_count": 5669
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 79436604.82,
+      "_count": 751
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2004",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 84581175.12,
+      "_count": 1074
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 170604154.8,
+      "_count": 5293
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2004",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 79840838.66,
+      "_count": 1074
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 554787502.84,
+      "_count": 1824
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 57712927.54,
+      "_count": 4049
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 213649336.89,
+      "_count": 4905
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 22173626.26,
+      "_count": 1763
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 41996501.16,
+      "_count": 544
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2005",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 610740000,
+      "_count": 942
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 61937972.23,
+      "_count": 3877
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 474341545.04,
+      "_count": 1319
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 47776629.41,
+      "_count": 1763
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2008",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 861003956,
+      "_count": 1036
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 16906193.87,
+      "_count": 2405
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 47659113.86,
+      "_count": 3630
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 30023334.75,
+      "_count": 940
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 239091486.71,
+      "_count": 4990
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Karpenissi",
+      "global__amount__0397f.sum": 44350020.4,
+      "_count": 4099
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 346109018.96,
+      "_count": 1076
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 42577813.04,
+      "_count": 571
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 4586895.17,
+      "_count": 1494
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 54505407.71,
+      "_count": 4955
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 300194374.85,
+      "_count": 1084
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2008",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 520707393.35,
+      "_count": 1036
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 179556409.13,
+      "_count": 1357
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": -21793.23,
+      "_count": 3494
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 59828741.84,
+      "_count": 264
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 70931451.22,
+      "_count": 791
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 39862905.37,
+      "_count": 4905
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2009",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 967620946,
+      "_count": 1527
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 159833955.96,
+      "_count": 3062
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Karpenissi",
+      "global__amount__0397f.sum": 48677086.52,
+      "_count": 3885
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 31998041.56,
+      "_count": 5100
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 285744198.91,
+      "_count": 1549
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 17276881.64,
+      "_count": 3362
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 173386333.85,
+      "_count": 9998
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 165213779.6,
+      "_count": 9852
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 64906122.84,
+      "_count": 4721
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 415927815.54,
+      "_count": 1443
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 106413813.23,
+      "_count": 4227
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 58950794.95,
+      "_count": 4721
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 73839782.93,
+      "_count": 3800
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 634471970.94,
+      "_count": 1664
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 41800000,
+      "_count": 2951
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 150948761.54,
+      "_count": 2829
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 163892000,
+      "_count": 5691
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 27485318.77,
+      "_count": 3917
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Karpenissi",
+      "global__amount__0397f.sum": 46116544.78,
+      "_count": 3885
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Karpenissi",
+      "global__amount__0397f.sum": 12748378.99,
+      "_count": 3756
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 55957641.63,
+      "_count": 4049
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 667000000,
+      "_count": 1319
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 37159853.58,
+      "_count": 2558
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 259244774.41,
+      "_count": 4227
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2006",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 145048820.51,
+      "_count": 2115
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 299095084.06,
+      "_count": 3389
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 114722265.65,
+      "_count": 3389
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2002",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 52095507.07,
+      "_count": 992
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 459080674.26,
+      "_count": 1931
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 58063259.56,
+      "_count": 3877
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 22153156.86,
+      "_count": 2931
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2004",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 369627311,
+      "_count": 782
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 62932066.27,
+      "_count": 403
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2008",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 124226334.94,
+      "_count": 2333
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": -9590,
+      "_count": 3131
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2006",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 602949000,
+      "_count": 1160
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 20458333.38,
+      "_count": 4962
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 56976622.3,
+      "_count": 4325
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2008",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 94591410.29,
+      "_count": 2079
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 50994160.96,
+      "_count": 1763
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 8851224.21,
+      "_count": 6034
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 53648439.92,
+      "_count": 2558
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 74876052.37,
+      "_count": 2540
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 77631173.11,
+      "_count": 716
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 899277000,
+      "_count": 1675
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 78177109.64,
+      "_count": 4890
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 161361288.68,
+      "_count": 760
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 13740631.07,
+      "_count": 2600
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2005",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 544506971.14,
+      "_count": 942
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 227389727.53,
+      "_count": 4419
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 98247634.56,
+      "_count": 5100
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 111612396.55,
+      "_count": 2573
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 56620294.44,
+      "_count": 2052
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 456908505.45,
+      "_count": 1931
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 39880157.56,
+      "_count": 6034
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 678705027.71,
+      "_count": 1572
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2010",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 21383739.51,
+      "_count": 3877
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 105586560.36,
+      "_count": 3062
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2005",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 75914970.85,
+      "_count": 2017
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2006",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 80641099.72,
+      "_count": 2115
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 118246535.98,
+      "_count": 4049
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 40600000,
+      "_count": 6034
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2008",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 626919078.6,
+      "_count": 1036
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 166374200.8,
+      "_count": 760
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 51207784.74,
+      "_count": 4990
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 270687295.24,
+      "_count": 2932
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Kilkis",
+      "global__amount__0397f.sum": 68369077.74,
+      "_count": 4325
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 79509475.38,
+      "_count": 2491
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2003",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 59281036.77,
+      "_count": 1029
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 93005362.9,
+      "_count": 791
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 320547048.35,
+      "_count": 3139
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 889138025.46,
+      "_count": 1380
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Municipality of Karpenissi",
+      "global__amount__0397f.sum": 30326006.62,
+      "_count": 4099
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2009",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 887348000,
+      "_count": 1527
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2002",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 73784974.61,
+      "_count": 992
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 103412258.26,
+      "_count": 906
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 105138068.3,
+      "_count": 4955
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 395710225.22,
+      "_count": 2985
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Thessaloniki",
+      "global__amount__0397f.sum": 742400000,
+      "_count": 1295
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 15871872.98,
+      "_count": 9998
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2015",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 140323086.95,
+      "_count": 2654
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Rethymno",
+      "global__amount__0397f.sum": 39451201.41,
+      "_count": 1168
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Sithonia",
+      "global__amount__0397f.sum": 29308887.99,
+      "_count": 3800
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Region of South Aegean",
+      "global__amount__0397f.sum": 252177850.67,
+      "_count": 4905
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2007",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 623866819,
+      "_count": 942
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2005",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 411669637.05,
+      "_count": 942
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Draft",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 245294501.54,
+      "_count": 2768
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2016",
+      "global__organization__0eba1.prefLabel": "Municipality of Karpenissi",
+      "global__amount__0397f.sum": 12675096.92,
+      "_count": 7512
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 253445741.17,
+      "_count": 2768
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2013",
+      "global__organization__0eba1.prefLabel": "Municipality of Katerini",
+      "global__amount__0397f.sum": 116539156.24,
+      "_count": 4680
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2003",
+      "global__organization__0eba1.prefLabel": "Municipality of Kalamaria",
+      "global__amount__0397f.sum": 31834680.07,
+      "_count": 872
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 70001498.28,
+      "_count": 2708
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Veria",
+      "global__amount__0397f.sum": 91512475.04,
+      "_count": 906
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Revised",
+      "global__fiscalPeriod__28951.prefLabel": "2011",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 900961942,
+      "_count": 1675
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Epirus Region",
+      "global__amount__0397f.sum": 92083937.22,
+      "_count": 2746
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Approved",
+      "global__fiscalPeriod__28951.prefLabel": "2012",
+      "global__organization__0eba1.prefLabel": "Municipality of Athens",
+      "global__amount__0397f.sum": 387182020.82,
+      "_count": 1931
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Executed",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Karpenissi",
+      "global__amount__0397f.sum": 16626405.03,
+      "_count": 3885
+    },
+    {
+      "global__budgetPhase__afd93.prefLabel": "Reserved",
+      "global__fiscalPeriod__28951.prefLabel": "2014",
+      "global__organization__0eba1.prefLabel": "Municipality of Naoussa",
+      "global__amount__0397f.sum": 11479863.2,
+      "_count": 2625
+    }
+  ],
+  "order": null,
+  "aggregates": [
+    "global__amount__0397f.sum",
+    "_count"
+  ],
+  "summary": {
+    "global__amount__0397f.sum": 79373202327.35,
+    "_count": 1187909
+  },
+  "attributes": [
+    "global__budgetPhase__afd93.prefLabel",
+    "global__fiscalPeriod__28951.prefLabel",
+    "global__organization__0eba1.prefLabel"
+  ]
+}
