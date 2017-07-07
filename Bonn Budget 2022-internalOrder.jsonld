@@ -2385,13 +2385,13 @@
     {
       "@graph": [
         {
-          "@id": "https://demo.etl.linkedpipes.com/resources/pipelines/created-1499437481140/69",
+          "@id": "https://demo.etl.linkedpipes.com/resources/pipelines/created-1499437481140/16/configuration",
           "@type": [
             "http://plugins.linkedpipes.com/ontology/t-rdfToFile#Configuration"
           ],
           "http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileName": [
             {
-              "@value": "Bonn_Budget_2022-psp.ttl"
+              "@value": "Bonn_Budget_2022-internalOrder.ttl"
             }
           ],
           "http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileNameControl": [
@@ -2411,7 +2411,7 @@
           ],
           "http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUri": [
             {
-              "@id": "http://data.openbudgets.eu/resource/dataset/bonn-budget-2022-psp"
+              "@id": "http://data.openbudgets.eu/resource/dataset/bonn-budget-2022-internalOrder"
             }
           ],
           "http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUriControl": [
