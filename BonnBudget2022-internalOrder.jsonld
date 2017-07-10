@@ -2442,7 +2442,7 @@
           ],
           "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileName": [
             {
-              "@value": "2022OnlyWithAuftrag..csv"
+              "@value": "2022OnlyWithAuftrag.csv"
             }
           ],
           "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileNameControl": [
