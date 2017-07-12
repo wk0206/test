@@ -20,7 +20,7 @@
           ],
           "http://www.w3.org/2004/02/skos/core#prefLabel": [
             {
-              "@value": "BonnBudget2022-internalOrder"
+              "@value": "BonnBudget2022-internalOrder_new"
             }
           ]
         },
@@ -570,6 +570,12 @@
               "@id": "https://demo.etl.linkedpipes.com/resources/pipelines/created-1499437481140/graph/39"
             }
           ],
+          "http://linkedpipes.com/ontology/disabled": [
+            {
+              "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+              "@value": "true"
+            }
+          ],
           "http://linkedpipes.com/ontology/template": [
             {
               "@id": "http://etl.linkedpipes.com/resources/components/l-filesToScp/0.0.0"
@@ -1073,16 +1079,6 @@
           "@type": [
             "http://plugins.linkedpipes.com/ontology/e-httpGetFile#Configuration"
           ],
-          "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri": [
-            {
-              "@value": "https://raw.githubusercontent.com/openbudgets/datasets/master/Bonn/dsd/Bonn20172024-dsd-internalOrder.ttl"
-            }
-          ],
-          "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl": [
-            {
-              "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-            }
-          ],
           "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileName": [
             {
               "@value": "Bonn20172024-dsd-internalOrder.ttl"
@@ -1093,9 +1089,20 @@
               "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
             }
           ],
+          "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri": [
+            {
+              "@value": "https://raw.githubusercontent.com/openbudgets/datasets/master/Bonn/dsd/Bonn20172024-dsd-internalOrder.ttl"
+            }
+          ],
+          "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl": [
+            {
+              "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+            }
+          ],
           "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect": [
             {
-              "@value": false
+              "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+              "@value": "false"
             }
           ],
           "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl": [
@@ -1469,7 +1476,7 @@
           ],
           "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query": [
             {
-              "@value": "CONSTRUCT {\n?s a <http://purl.org/linked-data/cube#Observation>.\n?s <http://data.openbudgets.eu/ontology/dsd/measure/amount> ?sum .\n?s <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/functionalClassification> ?functionalUri .\n?s <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/economicClassification> ?economicUri .\n?s <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/administrativeClassification> ?administrativeUri .\n?s <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/businessArea> ?businessAreaUri .\n?s <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/profitCenter> ?profitCenterUri .\n?s <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/internalOrder> ?internalOrderUri.\n?s \t<http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/operationCharacter>  ?opCharUri.\n?s <http://purl.org/linked-data/cube#dataSet> <http://data.openbudgets.eu/resource/dataset/bonn-budget-2022-internalOrder>. \n}\nWHERE {\n\t{SELECT  (MIN(?obs) AS ?s) (SUM(?amount) AS ?sum) ?administrative ?businessArea ?profitCenter ?economic ?functional ?internalOrder ?opChar\n  WHERE {  \n\t?obs \t<http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/administrativeClassification> ?administrative ;\n     \t\t<http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/economicClassification> ?economic ;\n     \t\t<http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/functionalClassification> ?functional ;\n     \t\t<http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/businessArea> ?businessArea ;\n     \t\t<http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/profitCenter> ?profitCenter ;\n     \t\t<http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/operationCharacter> ?opChar ;\n     \t\t<http://data.openbudgets.eu/ontology/dsd/measure/amount> ?amount ; \n\t\t\tOPTIONAL { ?obs <http://temp/Auftrag> ?internalOrder . }\n  }\nGROUP BY ?functional ?economic ?administrative ?businessArea ?profitCenter ?internalOrder ?opChar\n}\nBIND(URI(CONCAT(\"http://data.openbudgets.eu/resource/codelist/produktuebersicht_bonn/\",?functional)) as ?functionalUri) .\nBIND(URI(CONCAT(\"http://data.openbudgets.eu/resource/codelist/kostenartenuebersicht_bonn/\",?economic)) as ?economicUri) .\nBIND(URI(CONCAT(\"http://data.openbudgets.eu/resource/codelist/aemterhierarchie_bonn/\",?administrative)) as ?administrativeUri) .\nBIND(URI(CONCAT(\"http://data.openbudgets.eu/resource/codelist/geschaeftsbereich_bonn/\",?businessArea)) as ?businessAreaUri) .\nBIND(URI(CONCAT(\"http://data.openbudgets.eu/resource/codelist/profitcenter_bonn/\",?profitCenter)) as ?profitCenterUri) .\nBIND(URI(CONCAT(\"http://data.openbudgets.eu/resource/codelist/kontierungselemente_bonn/innenauftraege/\",?internalOrder)) as ?internalOrderUri) .\nBIND(URI(CONCAT(\"http://data.openbudgets.eu/resource/codelist/bonn-operation-character/\",?opChar)) as ?opCharUri) .\n}"
+              "@value": "CONSTRUCT {\n?s a <http://purl.org/linked-data/cube#Observation>.\n?s <http://data.openbudgets.eu/ontology/dsd/measure/amount> ?sum .\n?s <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/functionalClassification> ?functionalUri .\n?s <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/economicClassification> ?economicUri .\n?s <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/administrativeClassification> ?administrativeUri .\n?s <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/businessArea> ?businessAreaUri .\n?s <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/profitCenter> ?profitCenterUri .\n?s <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/internalOrder> ?internalOrderUri.\n?s \t<http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/operationCharacter>  ?opCharUri.\n?s <http://purl.org/linked-data/cube#dataSet> <http://data.openbudgets.eu/resource/dataset/bonn-budget-2022-internalOrder>. \n}\nWHERE {\n\t{SELECT  (MIN(?obs) AS ?s) (SUM(?amount) AS ?sum) ?administrative ?businessArea ?profitCenter ?economic ?functional ?internalOrder ?opChar\n  WHERE {  \n\t?obs \t<http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/administrativeClassification> ?administrative ;\n     \t\t<http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/economicClassification> ?economic ;\n     \t\t<http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/functionalClassification> ?functional ;\n     \t\t<http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/businessArea> ?businessArea ;\n     \t\t<http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/profitCenter> ?profitCenter ;\n     \t\t<http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024/dimension/operationCharacter> ?opChar ;\n     \t\t<http://data.openbudgets.eu/ontology/dsd/measure/amount> ?amount ; \n\t\t\tOPTIONAL { ?obs <http://temp/Auftrag> ?internalOrder . }\n  }\nGROUP BY ?functional ?economic ?administrative ?businessArea ?profitCenter ?internalOrder ?opChar\n}\nBIND(URI(CONCAT(\"http://data.openbudgets.eu/resource/codelist/produktuebersicht_bonn/\",?functional)) as ?functionalUri) .\nBIND(URI(CONCAT(\"http://data.openbudgets.eu/resource/codelist/kostenartenuebersicht_bonn/\",?economic)) as ?economicUri) .\nBIND(URI(CONCAT(\"http://data.openbudgets.eu/resource/codelist/aemterhierarchie_bonn/\",?administrative)) as ?administrativeUri) .\nBIND(URI(CONCAT(\"http://data.openbudgets.eu/resource/codelist/geschaeftsbereich_bonn/\",?businessArea)) as ?businessAreaUri) .\nBIND(URI(CONCAT(\"http://data.openbudgets.eu/resource/codelist/profitcenter_bonn/\",?profitCenter)) as ?profitCenterUri) .\nBIND(URI(CONCAT(\"http://data.openbudgets.eu/resource/codelist/innenauftraege_bonn/\",?internalOrder)) as ?internalOrderUri) .\nBIND(URI(CONCAT(\"http://data.openbudgets.eu/resource/codelist/bonn-operation-character/\",?opChar)) as ?opCharUri) .\n}"
             }
           ],
           "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl": [
@@ -1490,7 +1497,7 @@
           ],
           "http://plugins.linkedpipes.com/ontology/t-sparqlUpdate#query": [
             {
-              "@value": "INSERT { <http://data.openbudgets.eu/resource/dataset/bonn-budget-2022-internalOrder>  a <http://purl.org/linked-data/cube#DataSet> ;\n    <http://purl.org/dc/terms/title> \"Bonn Budget 2022-internalOrder\"@en, \"Haushalt der Stadt Bonn für 2022-internalOrder\"@de ;\n    <http://www.w3.org/2000/01/rdf-schema#label> \"Budget of City of Bonn (Germany) for the fiscal year 2022-internalOrder\"@en ;\n    <http://purl.org/dc/terms/publisher> <http://openbudgets.eu> ;\n    <http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/de> ;\n\t<http://data.openbudgets.eu/ontology/dsd/dimension/organization> <http://dbpedia.org/resource/Bonn> ;\n\t<http://data.openbudgets.eu/ontology/dsd/attribute/currency> <http://data.openbudgets.eu/codelist/currency/EUR> ;\n\t<http://data.openbudgets.eu/ontology/dsd/dimension/budgetPhase> <http://data.openbudgets.eu/resource/codelist/budget-phase/approved> ;\n\t<http://data.openbudgets.eu/ontology/dsd/dimension/fiscalYear> <http://reference.data.gov.uk/id/year/2022> ;\n\t<http://purl.org/linked-data/cube#structure> <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024> .}\nWHERE { ?s ?p ?o. }"
+              "@value": "INSERT { <http://data.openbudgets.eu/resource/dataset/bonn-budget-2022-internalOrder>  a <http://purl.org/linked-data/cube#DataSet> ;\n    <http://purl.org/dc/terms/title> \"Bonn Budget 2022-internalOrder\"@en, \"Haushalt der Stadt Bonn für 2022-internalOrder\"@de ;\n    <http://www.w3.org/2000/01/rdf-schema#label> \"Budget of City of Bonn (Germany) for the fiscal year 2022-internalOrder\"@en ;\n    <http://purl.org/dc/terms/publisher> <http://openbudgets.eu> ;\n    <http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/de> ;\n\t<http://data.openbudgets.eu/ontology/dsd/dimension/organization> <http://dbpedia.org/resource/Bonn> ;\n\t<http://data.openbudgets.eu/ontology/dsd/attribute/currency> <http://data.openbudgets.eu/codelist/currency/EUR> ;\n\t<http://data.openbudgets.eu/ontology/dsd/dimension/budgetPhase> <http://data.openbudgets.eu/resource/codelist/budget-phase/approved> ;\n\t<http://data.openbudgets.eu/ontology/dsd/dimension/fiscalYear> <http://reference.data.gov.uk/id/year/2022> ;\n\t<http://purl.org/linked-data/cube#structure> <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024-internalOrder> .}\nWHERE { ?s ?p ?o. }"
             }
           ],
           "http://plugins.linkedpipes.com/ontology/t-sparqlUpdate#queryControl": [
@@ -1586,7 +1593,7 @@
           ],
           "http://plugins.linkedpipes.com/ontology/t-sparqlUpdate#query": [
             {
-              "@value": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \nPREFIX qb: <http://purl.org/linked-data/cube#> \nPREFIX obeu-dimension: <http://data.openbudgets.eu/ontology/dsd/dimension/> \nPREFIX obeu-attribute:   <http://data.openbudgets.eu/ontology/dsd/attribute/>\nPREFIX obeu-operation: <http://data.openbudgets.eu/resource/codelist/operation-character/>\n\nINSERT DATA {\n<http://data.openbudgets.eu/resource/dataset/bonn-budget-2022-internalOrder> a qb:DataSet ;\n\tobeu-dimension:organization <http://dbpedia.org/resource/Bonn> ;\n\tobeu-attribute:currency <http://data.openbudgets.eu/codelist/currency/EUR> ;\n        obeu-dimension:fiscalYear <http://reference.data.gov.uk/id/year/2022>;\n\tqb:structure <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024>   .\n}"
+              "@value": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \nPREFIX qb: <http://purl.org/linked-data/cube#> \nPREFIX obeu-dimension: <http://data.openbudgets.eu/ontology/dsd/dimension/> \nPREFIX obeu-attribute:   <http://data.openbudgets.eu/ontology/dsd/attribute/>\nPREFIX obeu-operation: <http://data.openbudgets.eu/resource/codelist/operation-character/>\n\nINSERT DATA {\n<http://data.openbudgets.eu/resource/dataset/bonn-budget-2022-internalOrder> a qb:DataSet ;\n\tobeu-dimension:organization <http://dbpedia.org/resource/Bonn> ;\n\tobeu-attribute:currency <http://data.openbudgets.eu/codelist/currency/EUR> ;\n        obeu-dimension:fiscalYear <http://reference.data.gov.uk/id/year/2022>;\n\tqb:structure <http://data.openbudgets.eu/ontology/dsd/bonn-budget-2017_2024-internalOrder>   .\n}"
             }
           ],
           "http://plugins.linkedpipes.com/ontology/t-sparqlUpdate#queryControl": [
@@ -1863,7 +1870,7 @@
           ],
           "http://plugins.linkedpipes.com/ontology/t-tabularUv#baseUri": [
             {
-              "@value": "http://data.openbudgets.eu/resource/dataset/bonn-budget-2022/observation/"
+              "@value": "http://data.openbudgets.eu/resource/dataset/bonn-budget-2022-internalOrder/observation/"
             }
           ],
           "http://plugins.linkedpipes.com/ontology/t-tabularUv#baseUriControl": [
